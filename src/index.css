@@ -9,6 +9,8 @@
     --color-font-primary: #FFFFFF;
     --color-font-secondary: #6F6F6F;
 
+    --color-button-primary: #FF2323;
+
 }
 
 * {
@@ -27,4 +29,3 @@ body {
 main {
     padding: 20px 0;
 }
-  

@@ -5,6 +5,7 @@ header{
 
 .title-name{
     font-size: 20px;
+    cursor: pointer;
     color: var(--color-font-primary);
 }
 
