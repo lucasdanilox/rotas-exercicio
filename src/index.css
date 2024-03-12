@@ -29,3 +29,9 @@ body {
 main {
     padding: 20px 0;
 }
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}

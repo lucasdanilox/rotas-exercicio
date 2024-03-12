@@ -13,7 +13,5 @@ export default function HomePage({ name_promotion }: Props) {
                 <h3>{name_promotion}</h3>
             </div>
         </main>
-
-
     );
 }
