@@ -1,12 +1,16 @@
 import './styles.css';
 
-export default function HomePage() {
+type Props = {
+    name_promotion: string;
+}
+
+export default function HomePage({ name_promotion }: Props) {
 
     return (
 
         <main className="home-page-container">
             <div className="home-page">
-                <h3>Página inicial</h3>
+                <h3>{name_promotion}</h3>
             </div>
         </main>
 
