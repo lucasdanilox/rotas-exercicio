@@ -1,17 +1,13 @@
 import { Link } from "react-router-dom";
-import Button from "../../components/Button";
-import Header from "../../components/Header";
-import HomePage from "../../components/HomePage";
+import Button from "../../../components/Button";
+import HomePage from "../../../components/HomePage";
 
-export default function MainPage() {
+export default function Enrollment() {
 
     return (
         <section id="section-home-page">
-            <header>
-                <Header />
-            </header>
             <main>
-                <HomePage name_promotion="Página inicial" />
+                <HomePage name_promotion="Página de inscrição" />
             </main>
             <div>
                 <Link to="/promotion">
